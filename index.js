@@ -13,12 +13,12 @@ root.render(Title);
 
 //same element using jsx
 
-// const jsxTitle = (
-//   <div>
-//     <h1>Hello from jsx H1 Tag</h1>
-//     <h2>Hello from jsx H2 Tag</h2>
-//     <h3>Hello from jsx H3 Tag</h3>
-//   </div>
-// );
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(jsxTitle);
+const jsxTitle = (
+  <div>
+    <h1>Hello from jsx H1 Tag</h1>
+    <h2>Hello from jsx H2 Tag</h2>
+    <h3>Hello from jsx H3 Tag</h3>
+  </div>
+);
+const root1 = ReactDOM.createRoot(document.getElementById("root"));
+root1.render(jsxTitle);
