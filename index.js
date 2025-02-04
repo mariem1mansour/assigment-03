@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "./style.css";
 // using React.createElement
 
 const Title = React.createElement("div", { className: "title" }, [
@@ -52,9 +53,31 @@ const ParentComponenent = () => (
   </div>
 );
 
+// Header Componenet
+const Header = () => (
+  <div className="Header">
+    <div className="Logo">
+      <img
+        src="https://t3.ftcdn.net/jpg/01/32/67/54/360_F_132675456_2I1T2Qo0g1fd3o5pUpPv59RUrCH5sbWl.jpg"
+        alt="logo"
+      />
+    </div>
+    <div className="Search">
+      <input type="text" placeholder="Search" />
+    </div>
+    <div className="UserIcon">
+      <img
+        src="https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-female-user-profile-icon-vector-illustraton-png-image_6489286.png"
+        alt="user icon"
+      />
+    </div>
+  </div>
+);
+
 const root2 = ReactDOM.createRoot(document.getElementById("root"));
 root2.render(
   <div>
+    <Header />
     <JsxComponent />
     <JsxComponentWithTags />
     <ParentComponenent />

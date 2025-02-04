@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 10px;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Logo img {
+  width: 70px;
+}
+
+.UserIcon img {
+  width: 50px;
+}
+
+.Search input {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid rgb(185, 185, 185);
+  margin: 10px;
+}
