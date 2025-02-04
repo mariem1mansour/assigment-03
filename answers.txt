@@ -1,0 +1,14 @@
+1/ jsx = it's a mix of javascript and something 
+like xml or Html 
+2/
+superpowers of jsx 
+- jsx sanitizes data
+- jsx makes code readeable
+- jsx prevents code injections
+3/
+attribut type specifies the scripting language used in the file 
+
+4/
+{TitleComponent} =>	pass the Component as prop 
+{<TitleComponent/>}	=> initiate the component
+{<TitleComponent></TitleComponent>}	=> allows children inside
